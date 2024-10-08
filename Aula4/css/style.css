@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+@font-face {
+    font-family: alien;
+    src: url(/aliendude/aliendude.ttf);
+}
+
 h1{
+    font-family: "alien";
     text-align: center;
 }
 
