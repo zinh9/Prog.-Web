@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+
+ol{
+    list-style-type: upper-alpha;
+}
+
+li{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minhadiv{
+    border: dashed;
+    border-color: black;
+    background-color: rgb(151, 150, 150);
+    text-align: center;
+}
+
+.titulo{
+    font-size: 20px;
+    background-color: gray;
+}
+
+.titulo:hover{
+    background-color: aliceblue;
+}
