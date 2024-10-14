@@ -1,0 +1,71 @@
+@font-face {
+    font-family: chinese-rocks;
+    src: url(/chinese-rocks/chinese-rocks-rg.ttf);
+}
+
+body{
+    background-color: #ba0a0a;
+}
+
+header, footer{
+    background-color: rgb(0, 0, 0);
+}
+
+/* Serve para remover o sublinhado no texto */
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ba0a03;
+}
+
+table{
+    width: 400px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td, tr{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #000;
+    font-family: "chinese-rocks";
+}
+
+tr:hover{
+    background-color: #a00500;
+}
+
+p, li{
+    color: white;
+    font-family: "chinese-rocks";
+}
+
+h2{
+    color: black;
+    font-family: "chinese-rocks";
+}
+
+#imagem{
+    width: 960px;
+}
+
+#titulo{
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    font-family: "chinese-rocks";
+}
+
+.container{
+    background-color: #5C4033;
+    width: 960px;
+    margin: auto;
+}
+
+.armas{
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
+}
