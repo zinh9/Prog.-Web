@@ -1,6 +1,6 @@
 @font-face {
     font-family: chinese-rocks;
-    src: url(/chinese-rocks/chinese-rocks-rg.ttf);
+    src: url(/Aula5/chinese-rocks/chinese-rocks-rg.ttf);
 }
 
 body{
@@ -47,6 +47,30 @@ h2{
     font-family: "chinese-rocks";
 }
 
+input, textarea{
+    width: 50%;
+    padding: 5px;
+    margin: 15px;
+    font-family: "chinese-rocks";
+    border-style: groove;
+}
+
+label, legend{
+    font-family: "chinese-rocks";
+}
+
+input:focus{
+    background-color: rgb(165, 165, 165);
+}
+
+textarea:focus{
+    background-color: rgb(165, 165, 165);
+}
+
+textarea{
+    width: 40%;
+}
+
 #imagem{
     width: 960px;
 }
@@ -68,4 +92,8 @@ h2{
     border-radius: 25px;
     width: 100%;
     height: auto;
+}
+
+.lista-menu{
+    color: #000;
 }
