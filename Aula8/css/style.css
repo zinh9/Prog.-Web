@@ -1,0 +1,26 @@
+.container{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{
+    width: 80%;
+    height: 100%;
+    opacity: 0.5;
+    border: 2px solid green;
+    object-fit: cover;
+}
+
+.centro{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    align-items: center;
+    color: black;
+    z-index: 999;
+}

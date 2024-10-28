@@ -4,25 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div>
-        <div>
-            <form action="index.html" method="post">
-                <h1> Cadastrar usuário </h1>
+    <div class="container">
+        <form action="index.html" method="post">
+            <h1>Cadastrar usuário</h1>
 
+            <ol>
                 <fieldset>
-                    <legend>1 Dados Pessoais</legend>
+                    <legend><li>Dados Pessoais</li></legend>
                     <label for="fnome">Nome:</label>
                     <input type="text" id="fnome" name="fnome">
+                    
                     <label for="femail">Email:</label>
                     <input type="email" id="femail" name="femail">
+
                     <label for="fsenha">Senha:</label>
                     <input type="password" id="fsenha" name="fsenha">
+
                     <label for="fconfirmasenha">Confirma senha:</label>
                     <input type="password" id="fconfirmasenha" name="fconfirmasenha">
+
                     <label>Idade:</label>
                     <input type="radio" id="acimade17" name="fidade" value="Acima de 17">
                     <label for="acimade17">Acima de 17</label>
@@ -33,10 +38,10 @@
                 <br>
 
                 <fieldset>
-                    <legend>2 Perfil</legend>
-
+                    <legend><li>Perfil</li></legend>
                     <label for="fdescricao">Descrição:</label>
                     <textarea name="fdescricao" id="fdescricao" rows="4" cols="50"></textarea>
+
                     <label for="fperfiltrabalho">Perfil trabalho:</label>
                     <select name="fperfiltrabalho" id="fperfiltrabalho">
                         <option value="frontend">Front-End Developer</option>
@@ -44,6 +49,7 @@
                         <option value="dataengineer">Data Engineer</option>
                         <option value="dataanalytics">Data Analytics</option>
                     </select>
+
                     <label for="finteresses">Interesses:</label>
                     <input type="checkbox" id="interesse1" name="interesse1">
                     <label for="interesse1">Programador</label>
@@ -54,8 +60,8 @@
                 </fieldset>
 
                 <button type="submit">Enviar dados</button>
-            </form>
-        </div>
+            </ol>
+        </form>
     </div>
 </body>
 

@@ -27,7 +27,7 @@ table{
 }
 
 th, td, tr{
-    padding: 10px;
+    margin: 10px;
     text-align: left;
     border-bottom: 1px solid #000;
     font-family: "chinese-rocks";

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Parisienne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Thoma, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+footer,
+header {
+    background-color: #82F263;
+    min-height: 50px;
+}
+
+ul,
+li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(4, 27, 4);
+}
+
+a:hover {
+    color: rgb(107, 118, 107);
+}
+
+section h1 {
+    font-family: "Parisienne";
+    text-align: center;
+    font-size: 40px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    padding: 5px;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+}
+
+.container img {
+    width: 30%;
+    margin: 10px;
+}
+
+form {
+    background-color: #c0c0c0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 50px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset{
+    border: 2px solid  #c0c0c0;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="button"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="button"] {
+    background-color: #82F263;
+    color: white;
+    cursor: pointer;
+    width: 90px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+input[type="button"]:hover {
+    background-color: #66c94f;
+}
